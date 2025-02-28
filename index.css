@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+
+.scrollbar-hidden::-webkit-scrollbar {
+    display: none;
+  }
+  .scrollbar-hidden {
+    -ms-overflow-style: none;  /* Hide scrollbar for IE/Edge */
+    scrollbar-width: none;  /* Hide scrollbar for Firefox */
+  }
+
+  .restobtn{
+      padding-left: 8px;
+      padding-right: 8px;
+      padding-top: 4px;
+      padding-bottom: 4px;
+      border: 3px solid;
+      border-radius: 30px;
+      border-color: rgb(156, 146, 146);
+      font-weight: 400;  }
